@@ -1,0 +1,38 @@
+# Ignore dataset files
+Brain Tumor MRI Dataset/
+archive/
+*.jpg
+*.png
+*.jpeg
+*.tiff
+*.bmp
+*.csv
+*.json
+*.xml
+*.txt  # Prevents uploading labels
+
+# Ignore large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore temporary and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+
+# Ignore logs and checkpoints
+logs/
+*.log
+*.ckpt
+
+# Ignore TensorBoard logs
+runs/
+tensorboard/
